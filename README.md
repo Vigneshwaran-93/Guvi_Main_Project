@@ -31,3 +31,7 @@ From the given data we come up with a Machine Learning model to Segment the User
 By analyzing the data I found 24% null values in the Customer Id column. So in order to maintain the integrity of the data I have taken an approach where I have separated the Description from the original dataframe and carried out the NLP process. Following this I have build a model to classify this unique Description into groups.
 
 Then I used pandas to filter each user's full transactions. I formed a matrix having each row as user id, and columns as product group Id's and then I added the cumulative products purchased by the customer to their respective groups. The same way I have added a column " Total\_expence" made by each user. Then again, I have done grouping of users by the matrix formed above.
+
+# **Conclusion:** 
+As per the problem statement, the Customers have been grouped into 25 Groups. From alkalizing the data, a Majority of the customers and transactions come from Middle East Countries. There is a predominant increase in sales during the months from November to December. More promotions can be targeted during this period. 
+
